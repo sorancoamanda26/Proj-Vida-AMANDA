@@ -46,10 +46,12 @@ body{
     font-size: 18px;
     align-items: center;
     width: 100%;
+    
     border-bottom: 4px solid var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
+
 }
 
 .botao:first-child{
@@ -86,6 +88,11 @@ body{
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
+}
+
+.contador{
+    font-size: 20px;
+    text-align: center; 
 }
 
 @media screen and (min-width: 768px) {
